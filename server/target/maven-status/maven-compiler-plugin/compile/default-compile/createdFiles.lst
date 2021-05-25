@@ -1,0 +1,8 @@
+server\AuthService.class
+server\SimpleAuthServise.class
+server\SQLHandler.class
+server\ClientHandler.class
+server\SimpleAuthServise$UserData.class
+server\StartServer.class
+server\DBAuthServise.class
+server\Server.class
