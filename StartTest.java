@@ -17,10 +17,6 @@ public class StartTest {
             }
         }
 
-//        methods.sort(Comparator.comparingInt((Method i) -> {
-////            return i.getAnnotation(Test.class).priority();
-////        }).reversed());
-
         methods.sort(Comparator
                 .comparingInt((Method i) -> i.getAnnotation(Test.class).priority())
                 .reversed());
